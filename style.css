@@ -1,3 +1,11 @@
+.profile-img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -92,10 +100,3 @@ footer {
   flex-wrap: wrap;
 }
 
-.profile-pic {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #ccc;
-}
