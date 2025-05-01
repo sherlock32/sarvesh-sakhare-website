@@ -161,6 +161,10 @@ footer {
   flex-wrap: wrap;
 }
 
+.about-container p {
+  text-align: justify;
+}
+
 .profile-img {
   width: 250px;
   height: 250px;
@@ -214,6 +218,7 @@ button:hover {
   background-color: #1e40af;
   transform: scale(1.03);
 }
+
 
 
 
