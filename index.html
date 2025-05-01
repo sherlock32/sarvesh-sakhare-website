@@ -5,27 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sarvesh Sakhare</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="background-pattern"></div>
   <header>
     <h1>Sarvesh Sakhare</h1>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.linkedin.com/in/sarvesh-sakhare/" target="_blank">LinkedIn</a>
     </nav>
   </header>
 
   <main>
-<section id="about">
-  <h2>About Me</h2>
-  <div class="about-container">
-    <img src="./IMG_8556.jpeg" alt="Sarvesh Sakhare" class="profile-img">
-    <p>
-      Hello! I’m Sarvesh Sakhare, a graduate student in the Operations Research and Information Engineering Department at Cornell University, specializing in Financial Engineering. Before joining Cornell, I worked at J.P. Morgan as part of their Quantitative Research team, following my undergraduate studies in Engineering at IIT Madras. My interests lie in leveraging mathematics, programming, and machine learning to solve real-world problems. I am also currently involved in research in the field of Bayesian Optimization as part of a research group at the ORIE Dept in Cornell.
-    </p>
-  </div>
-</section>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <img src="./IMG_8556.jpeg" alt="Sarvesh Sakhare" class="profile-img">
+        <p>
+          Hello! I’m Sarvesh Sakhare, a graduate student in the Operations Research and Information Engineering Department at Cornell University, specializing in Financial Engineering. Before joining Cornell, I worked at J.P. Morgan as part of their Quantitative Research team, following my undergraduate studies in Engineering at IIT Madras. My interests lie in leveraging mathematics, programming, and machine learning to solve real-world problems. I am also currently involved in research in the field of Bayesian Optimization as part of a research group at the ORIE Dept in Cornell.
+        </p>
+      </div>
+    </section>
 
     <section id="projects">
       <h2>Projects</h2>
@@ -69,6 +75,19 @@
         <li><a href="https://www.t5eiitm.org/author/sarvesh-sakhare/">T5E Articles</a></li>
       </ul>
     </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="mailto:sarvesh@example.com" method="POST" enctype="text/plain">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
   </main>
 
   <footer>
@@ -76,5 +95,7 @@
   </footer>
 </body>
 </html>
+
+
 
 
