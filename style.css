@@ -219,6 +219,9 @@ button:hover {
   transform: scale(1.03);
 }
 
+.about-container p {
+  text-align: justify;
+}
 
 
 
