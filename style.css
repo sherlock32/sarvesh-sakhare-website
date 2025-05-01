@@ -93,8 +93,8 @@ footer {
 }
 
 .profile-img {
-  width: 250px;
-  height: 250px;
+  width: 800px;
+  height: 800px;
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
