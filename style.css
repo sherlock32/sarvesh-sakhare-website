@@ -92,9 +92,13 @@ footer {
   flex-wrap: wrap;
 }
 
-.profile-img {
-  max-width: 200px;
-  border-radius: 50%;
-  margin-top: 1rem;
+.profile-img  {
+  float: left;              /* Wrap text around the image */
+  width: 150px;             /* Set width */
+  height: 150px;            /* Set height to make it square */
+  object-fit: cover;        /* Crop image if needed to maintain aspect ratio */
+  margin: 0 1.5rem 1rem 0;  /* Add space between image and text */
+  border-radius: 8px;       /* Slight rounding for aesthetics */
 }
+
 
