@@ -77,18 +77,22 @@
       </ul>
     </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form action="mailto:sarvesh.s100@gmail.com" method="POST" enctype="text/plain">
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" required/>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/mkgroazp" method="POST">
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
 
-        <button type="submit">Send</button>
-      </form>
-    </section>
+    <!-- Hidden field for redirect after success -->
+    <input type="hidden" name="_next" value="https://yourdomain.com/thanks.html">
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
   </main>
 
   <footer>
